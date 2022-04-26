@@ -1,0 +1,113 @@
+
+    #otplogo
+    {
+        height: 100px;
+        margin-left:20%;
+    }
+    #otpwelcome
+    {
+        color: rgb(21, 97, 21);
+        font-size: 20px;
+      
+        font-weight: bold;
+        margin-left:25%;
+        margin-bottom: 10%;
+    }
+
+
+    #dialog{
+      border: solid 1px #ccc;
+      margin-left: 30%;
+      padding: 20px 30px;
+      display: inline-block;
+      box-shadow: 0 0 4px #ccc;
+      background-color: #FAF8F8;
+      overflow: hidden;
+      position: relative;
+      max-width: 450px;
+    }
+
+    /* otp pay button css */
+    #otppay
+    {
+
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 15%;
+        margin-right: 10%;
+
+    }
+     /* pay later otp button css */
+    #paylater
+    {
+        background-color: rgb(128, 125, 125);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+    }
+    
+         /* VERIFY button css */
+
+    #otpverify
+    {
+        background-color: rgb(48, 138, 180);
+        border: none;
+        color: white;
+        padding: 7px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        width:200px;
+        margin: 5% auto ;
+        
+
+    }
+        #otpform
+        {
+            margin: auto;
+            text-align: center;
+        }
+
+
+
+        #otpinput {
+          margin: 0 5px;
+          text-align: center;
+          line-height: 80px;
+          font-size: 50px;
+          border: solid 1px #ccc;
+          box-shadow: 0 0 5px #ccc inset;
+          outline: none;
+          width: 10%;
+          transition: all .2s ease-in-out;
+          border-radius: 3px;
+        }
+        
+    
+      
+
+        
+        #weProvide{
+            font-size: 15px;
+            margin-left:20px;
+            margin-top:10%;
+            font-size:20px;
+        }
+
+        #diaContent{
+            margin-top: -5px;
+        }
+    
+      

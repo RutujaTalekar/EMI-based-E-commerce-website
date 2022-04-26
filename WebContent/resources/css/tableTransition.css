@@ -1,0 +1,95 @@
+.accordion {
+    background-color: transparent;
+    color: rgb(223, 33, 33);
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  #orderRow {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    margin-left:16%;
+    margin-top:2%; 
+  }
+  
+  .EMIhead
+  {
+  text-align:center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+.uploadForm
+{
+	margin-top:5%;
+	margin-left:33%;
+	text-align:left;
+	border:1px solid gray;
+	width:33%;
+	
+	padding:2%;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px black;
+}
+  
+  .panel {
+    border-collapse: collapse;
+    margin-left: 5%;
+    background-color: rgb(255, 254, 254);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    width:70%;
+  }
+  #orderRow th {
+      text-align: left;
+     border: none;
+      background:#006666;
+      padding: 2%;
+      width: 10%;
+      color: #eee;
+      text-align:center;
+      
+    }
+  
+    #orderRow td{
+      border-collapse: collapse;
+     border: 1px solid rgb(207, 202, 202);
+   	 padding: 5px;
+      font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+      max-height: 0;
+      overflow: hidden;
+      width: 400px;
+      line-height:1em;
+      text-align:center;
+     
+    }
+   
+
+    .payButton{
+ 
+        border: none;
+        
+        padding: 5px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        width: 60%;
+        margin: 1% 7%;
+        cursor: pointer;
+        box-shadow: 1px 1px 5px black;
+        
+      }
+  .uploadDocs
+  {
+  width:50%;
+  }
